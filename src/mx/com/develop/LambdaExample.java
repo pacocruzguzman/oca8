@@ -3,18 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java8;
+package mx.com.develop;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 /**
  *
  * @author Remi
  */
-public class Java8 implements Comparable<String> {
+public class LambdaExample implements Comparable<String> {
 
     public void ordenar() {
         List<String> lista = new ArrayList<>();
@@ -42,7 +41,7 @@ public class Java8 implements Comparable<String> {
     }
 
     public static void main(String[] args) {
-        Java8 lambda = new Java8();
+        LambdaExample lambda = new LambdaExample();
         lambda.ordenar();
     }
 
